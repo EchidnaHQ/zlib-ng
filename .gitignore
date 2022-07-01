@@ -1,3 +1,4 @@
+
 *.diff
 *.patch
 *.orig
@@ -83,3 +84,27 @@ a.out
 
 /.idea
 /cmake-build-debug
+
+
+
+# From https://github.com/github/gitignore/blob/main/CMake.gitignore
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+gzread.cmake
+gzread.c
+infcover
+makecrct
+maketrees
+minideflate
+zlib.h
+zlib_name_mangling.h
